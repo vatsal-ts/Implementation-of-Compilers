@@ -1,0 +1,333 @@
+TOKEN:	single line COMMENT
+TOKEN:	INT
+type_specifier
+TOKEN:	IDENTIFIER
+TOKEN:	PARENTHESISOPEN
+TOKEN:	PARENTHESISCLOSE
+direct_declarator
+declarator
+TOKEN:	CURBOPEN
+TOKEN:	INT
+type_specifier
+TOKEN:	IDENTIFIER
+TOKEN:	SEMICOLON
+direct_declarator
+declarator
+init_declarator
+declaration
+block_item
+block_item_list
+TOKEN:	INT
+type_specifier
+TOKEN:	IDENTIFIER
+TOKEN:	ASSIGNMENT
+direct_declarator
+declarator
+TOKEN:	INTEGER_CONSTANT
+primary_expression
+primary_expression
+TOKEN:	SEMICOLON
+unary_expression
+multiplicative_expression
+additive_expression
+relational_expression
+equality_expression
+logical_and_expression
+logical_or_expression
+conditional_expression
+assignment_expression
+initializer
+init_declarator
+declaration
+block_item
+block_item_list
+TOKEN:	INT
+type_specifier
+TOKEN:	IDENTIFIER
+TOKEN:	ASSIGNMENT
+direct_declarator
+declarator
+TOKEN:	INTEGER_CONSTANT
+primary_expression
+primary_expression
+TOKEN:	SEMICOLON
+unary_expression
+multiplicative_expression
+additive_expression
+relational_expression
+equality_expression
+logical_and_expression
+logical_or_expression
+conditional_expression
+assignment_expression
+initializer
+init_declarator
+declaration
+block_item
+block_item_list
+TOKEN:	IDENTIFIER
+primary_expression
+primary_expression
+TOKEN:	PARENTHESISOPEN
+TOKEN:	BITWISE_AND
+unary_operator
+TOKEN:	IDENTIFIER
+primary_expression
+primary_expression
+TOKEN:	PARENTHESISCLOSE
+unary_expression
+unary_expression
+multiplicative_expression
+additive_expression
+relational_expression
+equality_expression
+logical_and_expression
+logical_or_expression
+conditional_expression
+assignment_expression
+argument_expression_list
+postfix_expression
+TOKEN:	SEMICOLON
+unary_expression
+multiplicative_expression
+additive_expression
+relational_expression
+equality_expression
+logical_and_expression
+logical_or_expression
+conditional_expression
+assignment_expression
+expression
+expression_statement
+statement
+block_item
+block_item_list
+TOKEN:	FOR
+TOKEN:	PARENTHESISOPEN
+TOKEN:	IDENTIFIER
+primary_expression
+primary_expression
+TOKEN:	ASSIGNMENT
+unary_expression
+TOKEN:	INTEGER_CONSTANT
+primary_expression
+primary_expression
+TOKEN:	SEMICOLON
+unary_expression
+multiplicative_expression
+additive_expression
+relational_expression
+equality_expression
+logical_and_expression
+logical_or_expression
+conditional_expression
+assignment_expression
+assignment_expression
+expression
+TOKEN:	IDENTIFIER
+primary_expression
+primary_expression
+TOKEN:	LESS_THAN_EQUAL
+unary_expression
+multiplicative_expression
+additive_expression
+relational_expression
+TOKEN:	IDENTIFIER
+primary_expression
+primary_expression
+TOKEN:	SEMICOLON
+unary_expression
+multiplicative_expression
+additive_expression
+relational_expression
+equality_expression
+logical_and_expression
+logical_or_expression
+conditional_expression
+assignment_expression
+expression
+TOKEN:	IDENTIFIER
+primary_expression
+primary_expression
+TOKEN:	ASSIGNMENT
+unary_expression
+TOKEN:	IDENTIFIER
+primary_expression
+primary_expression
+TOKEN:	ADD
+unary_expression
+multiplicative_expression
+additive_expression
+TOKEN:	INTEGER_CONSTANT
+primary_expression
+primary_expression
+TOKEN:	PARENTHESISCLOSE
+unary_expression
+multiplicative_expression
+additive_expression
+relational_expression
+equality_expression
+logical_and_expression
+logical_or_expression
+conditional_expression
+assignment_expression
+assignment_expression
+expression
+TOKEN:	IDENTIFIER
+primary_expression
+primary_expression
+TOKEN:	ASSIGNMENT
+unary_expression
+TOKEN:	IDENTIFIER
+primary_expression
+primary_expression
+TOKEN:	MUL
+unary_expression
+multiplicative_expression
+TOKEN:	IDENTIFIER
+primary_expression
+primary_expression
+TOKEN:	SEMICOLON
+unary_expression
+multiplicative_expression
+additive_expression
+relational_expression
+equality_expression
+logical_and_expression
+logical_or_expression
+conditional_expression
+assignment_expression
+assignment_expression
+expression
+expression_statement
+statement
+iteration_statement
+statement
+block_item
+block_item_list
+TOKEN:	IDENTIFIER
+primary_expression
+primary_expression
+TOKEN:	PARENTHESISOPEN
+TOKEN:	IDENTIFIER
+primary_expression
+primary_expression
+TOKEN:	PARENTHESISCLOSE
+unary_expression
+multiplicative_expression
+additive_expression
+relational_expression
+equality_expression
+logical_and_expression
+logical_or_expression
+conditional_expression
+assignment_expression
+argument_expression_list
+postfix_expression
+TOKEN:	SEMICOLON
+unary_expression
+multiplicative_expression
+additive_expression
+relational_expression
+equality_expression
+logical_and_expression
+logical_or_expression
+conditional_expression
+assignment_expression
+expression
+expression_statement
+statement
+block_item
+block_item_list
+TOKEN:	IDENTIFIER
+primary_expression
+primary_expression
+TOKEN:	PARENTHESISOPEN
+TOKEN:	STRING_LITERAL
+primary_expression
+primary_expression
+TOKEN:	PARENTHESISCLOSE
+unary_expression
+multiplicative_expression
+additive_expression
+relational_expression
+equality_expression
+logical_and_expression
+logical_or_expression
+conditional_expression
+assignment_expression
+argument_expression_list
+postfix_expression
+TOKEN:	SEMICOLON
+unary_expression
+multiplicative_expression
+additive_expression
+relational_expression
+equality_expression
+logical_and_expression
+logical_or_expression
+conditional_expression
+assignment_expression
+expression
+expression_statement
+statement
+block_item
+block_item_list
+TOKEN:	IDENTIFIER
+primary_expression
+primary_expression
+TOKEN:	PARENTHESISOPEN
+TOKEN:	IDENTIFIER
+primary_expression
+primary_expression
+TOKEN:	PARENTHESISCLOSE
+unary_expression
+multiplicative_expression
+additive_expression
+relational_expression
+equality_expression
+logical_and_expression
+logical_or_expression
+conditional_expression
+assignment_expression
+argument_expression_list
+postfix_expression
+TOKEN:	SEMICOLON
+unary_expression
+multiplicative_expression
+additive_expression
+relational_expression
+equality_expression
+logical_and_expression
+logical_or_expression
+conditional_expression
+assignment_expression
+expression
+expression_statement
+statement
+block_item
+block_item_list
+TOKEN:	RETURN
+TOKEN:	INTEGER_CONSTANT
+primary_expression
+primary_expression
+TOKEN:	SEMICOLON
+unary_expression
+multiplicative_expression
+additive_expression
+relational_expression
+equality_expression
+logical_and_expression
+logical_or_expression
+conditional_expression
+assignment_expression
+expression
+jump_statement
+statement
+block_item
+block_item_list
+TOKEN:	CURBCLOSE
+compound_statement
+function_definition
+external_declaration
+translation_unit

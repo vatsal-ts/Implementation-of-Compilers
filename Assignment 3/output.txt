@@ -1,0 +1,268 @@
+< SINGLE_LINE_COMM, 1, //include some random files>
+< MULTI_LINE_COMM, 2, /*main function*/>
+< IDENTIFIER, 10, struct>
+< IDENTIFIER, 10, address>
+< CURBROPEN, 19, {>
+< KEYWORD: CHAR, 5, char >
+< IDENTIFIER, 10, street>
+< SQRBROPEN, 15, [>
+< INTEGER_CONSTANT, 11, 100>
+< SQRBRCLOSE, 16, ]>
+< SEMICOLON, 41, ;>
+< KEYWORD: CHAR, 5, char >
+< IDENTIFIER, 10, city>
+< SQRBROPEN, 15, [>
+< INTEGER_CONSTANT, 11, 50>
+< SQRBRCLOSE, 16, ]>
+< SEMICOLON, 41, ;>
+< KEYWORD: INT, 8, int >
+< IDENTIFIER, 10, pin>
+< SEMICOLON, 41, ;>
+< CURBRCLOSE, 20, }>
+< SEMICOLON, 41, ;>
+< KEYWORD: VOID, 4, void >
+< IDENTIFIER, 10, fun>
+< RORBROPEN, 17, (>
+< IDENTIFIER, 10, struct>
+< IDENTIFIER, 10, address>
+< MUL, 24, *>
+< IDENTIFIER, 10, p>
+< RORBRCLOSE, 18, )>
+< CURBROPEN, 19, {>
+< IDENTIFIER, 10, p>
+< ARWCOM, 22, ->>
+< IDENTIFIER, 10, pin>
+< ASSIGN, 42, =>
+< INTEGER_CONSTANT, 11, 934759>
+< SEMICOLON, 41, ;>
+< CURBRCLOSE, 20, }>
+< KEYWORD: INT, 8, int >
+< IDENTIFIER, 10, main>
+< RORBROPEN, 17, (>
+< RORBRCLOSE, 18, )>
+< CURBROPEN, 19, {>
+< MULTI_LINE_COMM, 2, /*
+	Group 10 is amazing
+	Sweeya and Vatsal have worked hard to develop this project. Kindly go through the README.
+	*/>
+< KEYWORD: INT, 8, int >
+< IDENTIFIER, 10, x>
+< ASSIGN, 42, =>
+< INTEGER_CONSTANT, 11, 0>
+< COMMA, 48, ,>
+< IDENTIFIER, 10, z>
+< ASSIGN, 42, =>
+< INTEGER_CONSTANT, 11, 5>
+< SEMICOLON, 41, ;>
+< KEYWORD: CHAR, 5, char >
+< IDENTIFIER, 10, y>
+< ASSIGN, 42, =>
+< CHARACTER_CONSTANT, 12, '0'>
+< SEMICOLON, 41, ;>
+< KEYWORD: IF, 7, if >
+< RORBROPEN, 17, (>
+< IDENTIFIER, 10, x>
+< NEQ, 36, !=>
+< IDENTIFIER, 10, y>
+< RORBRCLOSE, 18, )>
+< CURBROPEN, 19, {>
+< IDENTIFIER, 10, printf>
+< RORBROPEN, 17, (>
+< STRING_LITERAL, 13, "x is not equal to y">
+< RORBRCLOSE, 18, )>
+< SEMICOLON, 41, ;>
+< CURBRCLOSE, 20, }>
+< KEYWORD: ELSE, 9, else >
+< CURBROPEN, 19, {>
+< IDENTIFIER, 10, printf>
+< RORBROPEN, 17, (>
+< STRING_LITERAL, 13, "x is equal to y">
+< RORBRCLOSE, 18, )>
+< SEMICOLON, 41, ;>
+< CURBRCLOSE, 20, }>
+< IDENTIFIER, 10, z>
+< ASSIGN, 42, =>
+< RORBROPEN, 17, (>
+< IDENTIFIER, 10, x>
+< ADD, 25, +>
+< IDENTIFIER, 10, z>
+< MUL, 24, *>
+< INTEGER_CONSTANT, 11, 2>
+< RORBRCLOSE, 18, )>
+^< INTEGER_CONSTANT, 11, 2>
+< SEMICOLON, 41, ;>
+< IDENTIFIER, 10, x>
+< ASSIGN, 42, =>
+< IDENTIFIER, 10, x>
+< SUB, 26, ->
+< IDENTIFIER, 10, z>
+< SEMICOLON, 41, ;>
+< IDENTIFIER, 10, z>
+< ASSIGN, 42, =>
+< IDENTIFIER, 10, z>
+< AND, 37, &&>
+< IDENTIFIER, 10, x>
+< SEMICOLON, 41, ;>
+< IDENTIFIER, 10, x>
+< ASSIGN, 42, =>
+< NEG, 27, ~>
+< IDENTIFIER, 10, x>
+< SEMICOLON, 41, ;>
+< IDENTIFIER, 10, z>
+< ASSIGN, 42, =>
+< IDENTIFIER, 10, z>
+< GRT, 32, >>
+< GRT, 32, >>
+< INTEGER_CONSTANT, 11, 2>
+< SEMICOLON, 41, ;>
+< IDENTIFIER, 10, x>
+< ASSIGN, 42, =>
+< IDENTIFIER, 10, x>
+< LST, 31, <>
+< LST, 31, <>
+< INTEGER_CONSTANT, 11, 2>
+< SEMICOLON, 41, ;>
+< IDENTIFIER, 10, z>
+< ASSIGN, 42, =>
+< IDENTIFIER, 10, z>
+< DIV, 29, />
+< INTEGER_CONSTANT, 11, 2>
+< SEMICOLON, 41, ;>
+< IDENTIFIER, 10, x>
+< ASSIGN, 42, =>
+< IDENTIFIER, 10, x>
+< MODULO, 30, %>
+< INTEGER_CONSTANT, 11, 2>
+< SEMICOLON, 41, ;>
+< IDENTIFIER, 10, z>
+< ASSIGN, 42, =>
+< IDENTIFIER, 10, z>
+< OR, 38, ||>
+< INTEGER_CONSTANT, 11, 0>
+< SEMICOLON, 41, ;>
+< KEYWORD: IF, 7, if >
+< RORBROPEN, 17, (>
+< IDENTIFIER, 10, x>
+< GTE, 34, >=>
+< IDENTIFIER, 10, z>
+< RORBRCLOSE, 18, )>
+< CURBROPEN, 19, {>
+< IDENTIFIER, 10, printf>
+< RORBROPEN, 17, (>
+< STRING_LITERAL, 13, "x is greater than or equal to z">
+< RORBRCLOSE, 18, )>
+< SEMICOLON, 41, ;>
+< CURBRCLOSE, 20, }>
+< KEYWORD: IF, 7, if >
+< RORBROPEN, 17, (>
+< IDENTIFIER, 10, x>
+< LTE, 33, <=>
+< IDENTIFIER, 10, z>
+< RORBRCLOSE, 18, )>
+< CURBROPEN, 19, {>
+< IDENTIFIER, 10, printf>
+< RORBROPEN, 17, (>
+< STRING_LITERAL, 13, "z is greater than or equal to x">
+< RORBRCLOSE, 18, )>
+< SEMICOLON, 41, ;>
+< CURBRCLOSE, 20, }>
+< KEYWORD: IF, 7, if >
+< RORBROPEN, 17, (>
+< IDENTIFIER, 10, x>
+< EQL, 35, ==>
+< IDENTIFIER, 10, z>
+< RORBRCLOSE, 18, )>
+< CURBROPEN, 19, {>
+< IDENTIFIER, 10, printf>
+< RORBROPEN, 17, (>
+< STRING_LITERAL, 13, "z is equal to x">
+< RORBRCLOSE, 18, )>
+< SEMICOLON, 41, ;>
+< CURBRCLOSE, 20, }>
+< KEYWORD: INT, 8, int >
+< MUL, 24, *>
+< IDENTIFIER, 10, q>
+< ASSIGN, 42, =>
+< AMPSND, 23, &>
+< IDENTIFIER, 10, z>
+< SEMICOLON, 41, ;>
+< KEYWORD: INT, 8, int >
+< IDENTIFIER, 10, random_num>
+< ASSIGN, 42, =>
+< INTEGER_CONSTANT, 11, 10>
+< SEMICOLON, 41, ;>
+< IDENTIFIER, 10, random_num>
+< PLUSEQ, 46, +=>
+< INTEGER_CONSTANT, 11, 1>
+< SEMICOLON, 41, ;>
+< IDENTIFIER, 10, random_num>
+< STAREQ, 43, *=>
+< INTEGER_CONSTANT, 11, 4>
+< DOT, 21, .>
+< INTEGER_CONSTANT, 11, 5>
+< SEMICOLON, 41, ;>
+< IDENTIFIER, 10, random_num>
+< MINUSEQ, 47, -=>
+< INTEGER_CONSTANT, 11, 25>
+< SEMICOLON, 41, ;>
+< IDENTIFIER, 10, random_num>
+< DIVEQ, 44, /=>
+< INTEGER_CONSTANT, 11, 2>
+< SEMICOLON, 41, ;>
+< IDENTIFIER, 10, random_num>
+< MODEQ, 45, %=>
+< INTEGER_CONSTANT, 11, 7>
+< SEMICOLON, 41, ;>
+< KEYWORD: INT, 8, int >
+< IDENTIFIER, 10, arr>
+< SQRBROPEN, 15, [>
+< INTEGER_CONSTANT, 11, 1>
+< SQRBRCLOSE, 16, ]>
+< SEMICOLON, 41, ;>
+< KEYWORD: FOR, 6, for >
+< RORBROPEN, 17, (>
+< KEYWORD: INT, 8, int >
+< IDENTIFIER, 10, i>
+< ASSIGN, 42, =>
+< INTEGER_CONSTANT, 11, 0>
+< SEMICOLON, 41, ;>
+< IDENTIFIER, 10, i>
+< LST, 31, <>
+< INTEGER_CONSTANT, 11, 1>
+< SEMICOLON, 41, ;>
+< IDENTIFIER, 10, i>
+< ADD, 25, +>
+< ADD, 25, +>
+< RORBRCLOSE, 18, )>
+< CURBROPEN, 19, {>
+< IDENTIFIER, 10, arr>
+< SQRBROPEN, 15, [>
+< INTEGER_CONSTANT, 11, 0>
+< SQRBRCLOSE, 16, ]>
+< ASSIGN, 42, =>
+< INTEGER_CONSTANT, 11, 0>
+< SEMICOLON, 41, ;>
+< CURBRCLOSE, 20, }>
+< EXCLAIM, 28, !>
+< RORBROPEN, 17, (>
+< IDENTIFIER, 10, x>
+< EQL, 35, ==>
+< INTEGER_CONSTANT, 11, 0>
+< RORBRCLOSE, 18, )>
+< QUESTION, 39, ?>
+< RORBROPEN, 17, (>
+< IDENTIFIER, 10, random_num>
+< ASSIGN, 42, =>
+< INTEGER_CONSTANT, 11, 0>
+< RORBRCLOSE, 18, )>
+< COLON, 40, :>
+< RORBROPEN, 17, (>
+< IDENTIFIER, 10, random_num>
+< ASSIGN, 42, =>
+< INTEGER_CONSTANT, 11, 1>
+< RORBRCLOSE, 18, )>
+< SEMICOLON, 41, ;>
+< KEYWORD: RETURN, 3, return >
+< INTEGER_CONSTANT, 11, 0>
+< SEMICOLON, 41, ;>
+< CURBRCLOSE, 20, }>
